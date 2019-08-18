@@ -25,6 +25,7 @@ namespace DatingApp.API.Controllers
         {
 
             var values = await _datacontext.values.ToListAsync();
+
             return Ok(values);
         }
 
