@@ -9,5 +9,7 @@ namespace DatingApp.API.Models
         public byte[] UserPwd { get; set; }
 
         public byte[] UserPwdSalt { get; set; }
+
+        public string Gender { get; set; }
     }
 }
